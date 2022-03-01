@@ -8,8 +8,7 @@ class Main():
 
         self.app = QApplication(sys.argv)
         self.kiwoom = Kiwoom()
-        self.app.exec_()
+        self.app.exec_() # 이벤트 루프 실행
 
 if __name__ == "__main__":
-    sys.executable
     Main()
